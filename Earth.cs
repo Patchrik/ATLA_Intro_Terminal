@@ -1,0 +1,68 @@
+﻿using System;
+
+namespace ATLAprinter
+{
+  class Earth
+  {
+    public void printASCIIart()
+    {
+      Console.WriteLine(@"MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMWNK0OOOOOOOOOOOOOOOOOOOOOOOOOOO0XWMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMWKxc'...............................,l0WMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMW0c..,ok0KKKKKKKKKKKKKKKKKKKKKKKKKKKkl' .cKMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMNd. .xNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMXd' .kWMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMNo. 'OWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMW0, .xWMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMWx. .xWMMMMMMMMMMMMWNXKK000KXNWMMMMMMMMMMMMMO' 'OMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMM0,  lNMMMMMMMMWXOoc;,'','''''';lx0NMMMMMMMMMWx. ;KMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMX:  ;KMMMMMMMXk:'';lxk0KKKKK0Oxo:..,lkNMMMMMMMNl  lNMMMMMMMMMMMMMM
+MMMMMMMMMMMMMWo. .OMMMMMMXd,.;xKWMMMMMMMMMMMMMWXx:..,dXMMMMMMK, .dWMMMMMMMMMMMMM
+MMMMMMMMMMMMWk. .dWMMMMWk,.;ONMMMMMMMMMMMMMMMMMMMWKl. ,OWMMMMWx. .OMMMMMMMMMMMMM
+MMMMMMMMMMMMK;  cNMMMMNd..oXMMMMMWX0xooooox0NMMMMMMWO; .kWMMMMNo  ;KMMMMMMMMMMMM
+MMMMMMMMMMMNc  ,KMMMMWd..oNMMMMWKl;:clllc:,',o0WMMMMMX: 'OWMMMMX:  cNMMMMMMMMMMM
+MMMMMMMMMMWd. .kWMMMMK, ,0MMMMM0,'xNMMMMMWNO:..oNMMMMMK; ;KMMMMM0' .dWMMMMMMMMMM
+MMMMMMMMMMO' .oWMMMMM0' ;KMMMMWl :XMMMMWNWMMNd. lNMMMMMk..xMMMMMWx. .OMMMMMMMMMM
+MMMMMMMMMK;  :XMMMMMMX: .OMMMMWd..l0NNOoo0MMMK, .kMMMMMK, oWMMMMMNl  ;KMMMMMMMMM
+MMMMMMMMNl  '0MMMMMMMWk. :KMMMMNOl;;:c:oOXMMMk. .kMMMMM0' oWMMMMMMX:  cNMMMMMMMM
+MMMMMMMWx. .xWMMMMMMMMWO,.,kNMMMMMWXXXWMMMMMK;  ;KMMMMWo..xMMMMMMMM0' .dWMMMMMMM
+MMMMMMM0'  lNMMMMMMMMMMMXd,.,oOXWMMMMMMMMWKd' .:0WMMMNd. :XMMMMMMMMWx. .OMMMMMMM
+MMMMMMX:  ;KMMMMMMMMMMMMMMNOl,.';:ccclcc:;'.,lONMMMMXl. ,0MMMMMMMMMMNl  ;KMMMMMM
+MMMMMWo  'OMMMMMMMMMMMMMMMMMMNKOxdooooodxkOXWMMMMWXd' .cKWMMMMMMMMMMMX:  cNMMMMM
+MMMMWk. .xWMMMMMMMMMMMMMMMMMMWNXXWMMMMMMMMMMMMWKkc...cOWMMMMMMMMMMMMMM0' .dWMMMM
+MMMM0,  oNMMMMMMMMMMMMMMMMMMMMNX0kxddddddooolc:;,;lkXWMMMMMMMMMMMMMMMMWx. .kWMMM
+MMMXc  :XMMMMMMMMMMMMMMMMMMMMMMMMWX0xolllloddkOKNWMMMMMMMMMMMMMMMMMMMMMNl  ,KMMM
+MMWd. ,0MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMX:  cXMM
+MWk. .kWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM0' .dWM
+M0, .oNMMMWNXXXXXXXXXXXXXXXXXXXXXXXWMMMMMMMMMWWWWWWWWNNNNNNNNNNNNNNNNWMMMWx. .OM
+Xc  cXMMMNx;,,,,,,,,,,,,,,,,,,,'...,dNMMMMWOc,,,,;;;;;;;;;;;,,,,,,,,;dXMMMNl  :X
+k. ,0MMMMWX00000000000000000000Od;  .xWMMM0,  'oxkOOOOOOOOOOOOOOOOOOO0NMMMMK, .x
+c  oWMMMMMMMMMMMMMMMMMMMMMMMMMMMMX: .dWMMMO. ,0MMMMMMMMMMMMMMMMMMMMMMMMMMMMWd. ;
+, .dMMMNKKKKKKKKKKKKKKKKKKKKKKKKK0: .xMMMMO. ,OXXXXXXXXXXXXXXXXXXXXXXXXXNMMMO. .
+. .xMM0:'...............'..''''...  .xMMMMO.  ..........................;OWM0' .
+. .kMMX0OOOOOOOOOO00000000000000k:  .kMMMMk.  ,oxxxxxxxxxxxxxdxxddddddddxKWMK, .
+. .kMMMMMMMMMMMMMMMMMMMMMMMMMMMMMO' .OMMMMk. .xMMMMMMMMMMMMMMMMMMMMMMMMMMMMMK, .
+' .oNNNNWWWWWWWWWWWWWWWWWWWMMMMMMO. .OMMMM0' .kMMMMMMMMMMMMMMMMMMMMMMMMMMMMWO. .
+l  ..''',,,;;;;;;;;;;;;;;;;;:::c:'  ;KMMMMNc  ,llllllllllllllllllllllllllll:.  :
+Nkc;,''..........................';l0WMMMMMKo;'.............................';dX
+MMMWWNXXKKKKK00000000000KKKKKKKKXNWMMMMMMMMMMWXK000000000000000000000000OO0KXWWM
+");
+    }
+
+    public void ASCIItext()
+    {
+      Console.WriteLine(@"
+ .----------------.  .----------------.  .----------------.  .----------------.  .----------------. 
+| .--------------. || .--------------. || .--------------. || .--------------. || .--------------. |
+| |  _________   | || |      __      | || |  _______     | || |  _________   | || |  ____  ____  | |
+| | |_   ___  |  | || |     /  \     | || | |_   __ \    | || | |  _   _  |  | || | |_   ||   _| | |
+| |   | |_  \_|  | || |    / /\ \    | || |   | |__) |   | || | |_/ | | \_|  | || |   | |__| |   | |
+| |   |  _|  _   | || |   / ____ \   | || |   |  __ /    | || |     | |      | || |   |  __  |   | |
+| |  _| |___/ |  | || | _/ /    \ \_ | || |  _| |  \ \_  | || |    _| |_     | || |  _| |  | |_  | |
+| | |_________|  | || ||____|  |____|| || | |____| |___| | || |   |_____|    | || | |____||____| | |
+| |              | || |              | || |              | || |              | || |              | |
+| '--------------' || '--------------' || '--------------' || '--------------' || '--------------' |
+ '----------------'  '----------------'  '----------------'  '----------------'  '----------------' 
+");
+    }
+  }
+}
